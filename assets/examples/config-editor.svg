@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Form based config editor with diff export">
+  <rect width="1200" height="675" fill="#FAF8F5"/>
+  <defs>
+    <style>
+      .mono{font:19px ui-monospace,monospace;fill:#8A837A}
+      .serif{font:700 30px Georgia,serif;fill:#141413}
+      .label{font:15px ui-monospace,monospace;letter-spacing:.16em;fill:#8A837A}
+    </style>
+  </defs>
+  <g transform="translate(44 46)">
+    <rect width="708" height="558" rx="17" fill="#FFFDF9" stroke="#D4CFC7" stroke-width="2"/>
+    <text class="serif" x="32" y="46">flags.yaml</text>
+    <text class="mono" x="500" y="45">18 flags · 2 changed</text>
+    <text class="label" x="32" y="92">STREAMING</text>
+    <path d="M32 105h648" stroke="#E3DACC"/>
+    <g transform="translate(32 125)">
+      <rect width="648" height="51" rx="10" fill="#FFFDF9" stroke="#D4CFC7"/>
+      <text x="22" y="32" font-family="ui-monospace,monospace" font-size="18" fill="#141413">streaming.v2</text>
+      <rect x="580" y="13" width="48" height="25" rx="13" fill="#788C5D"/><circle cx="616" cy="26" r="10" fill="#FFFDF9"/>
+    </g>
+    <g transform="translate(32 185)">
+      <rect width="648" height="51" rx="10" fill="#FFFDF9" stroke="#D4CFC7"/>
+      <text x="22" y="32" font-family="ui-monospace,monospace" font-size="18" fill="#141413">streaming.backpressure</text>
+      <rect x="580" y="13" width="48" height="25" rx="13" fill="#788C5D"/><circle cx="616" cy="26" r="10" fill="#FFFDF9"/>
+    </g>
+    <g transform="translate(32 245)">
+      <rect width="648" height="78" rx="10" fill="#FFFDF9" stroke="#D97757" stroke-width="2"/>
+      <rect width="5" height="78" fill="#D97757"/>
+      <text x="22" y="31" font-family="ui-monospace,monospace" font-size="18" fill="#141413">streaming.partial_json</text>
+      <text x="22" y="60" font-family="system-ui,sans-serif" font-size="15" fill="#D97757">requires streaming.delta_events — currently off</text>
+      <rect x="580" y="13" width="48" height="25" rx="13" fill="#D97757"/><circle cx="616" cy="26" r="10" fill="#FFFDF9"/>
+    </g>
+    <text class="label" x="32" y="366">BILLING</text>
+    <path d="M32 379h648" stroke="#E3DACC"/>
+    <g transform="translate(32 399)">
+      <rect width="648" height="51" rx="10" fill="#FFFDF9" stroke="#D4CFC7"/>
+      <text x="22" y="32" font-family="ui-monospace,monospace" font-size="18" fill="#141413">billing.usage_alerts</text>
+      <rect x="580" y="13" width="48" height="25" rx="13" fill="#D4CFC7"/><circle cx="593" cy="26" r="10" fill="#FFFDF9"/>
+    </g>
+    <g transform="translate(32 459)">
+      <rect width="648" height="51" rx="10" fill="#FFFDF9" stroke="#D4CFC7"/>
+      <text x="22" y="32" font-family="ui-monospace,monospace" font-size="18" fill="#141413">billing.proration_v3</text>
+      <rect x="580" y="13" width="48" height="25" rx="13" fill="#D4CFC7"/><circle cx="593" cy="26" r="10" fill="#FFFDF9"/>
+    </g>
+    <rect x="32" y="525" width="648" height="47" rx="8" fill="#141413"/>
+    <text x="356" y="555" text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" fill="#fff">Copy diff · 2 changed keys</text>
+  </g>
+  <path d="M760 337h43" stroke="#8A837A" stroke-width="3"/><path d="M803 337l-13-8v16z" fill="#8A837A"/>
+  <g transform="translate(810 46)">
+    <rect width="346" height="558" rx="17" fill="#11110F"/>
+    <rect width="346" height="54" rx="17" fill="#1D1B18"/>
+    <circle cx="30" cy="27" r="7" fill="#3A3935"/><circle cx="53" cy="27" r="7" fill="#3A3935"/><circle cx="76" cy="27" r="7" fill="#3A3935"/>
+    <text class="mono" x="278" y="32" text-anchor="middle">clipboard</text>
+    <text class="mono" x="26" y="106"># flags.diff</text>
+    <text class="mono" x="26" y="160" fill="#EEE9DF">streaming:</text>
+    <text class="mono" x="50" y="190">- partial_json: false</text>
+    <text class="mono" x="50" y="222" fill="#D97757">+ partial_json: true</text>
+    <text class="mono" x="26" y="286" fill="#EEE9DF">billing:</text>
+    <text class="mono" x="50" y="316">- usage_alerts: true</text>
+    <text class="mono" x="50" y="348" fill="#D97757">+ usage_alerts: false</text>
+    <path d="M26 410h294" stroke="#3D3A35"/>
+    <text class="mono" x="26" y="456"># paste into agent</text>
+    <text x="26" y="500" font-family="ui-monospace,monospace" font-size="18" fill="#EEE9DF">"apply this flag diff,</text>
+    <text x="26" y="532" font-family="ui-monospace,monospace" font-size="18" fill="#EEE9DF">update the rollout</text>
+    <text x="26" y="564" font-family="ui-monospace,monospace" font-size="18" fill="#EEE9DF">doc, open a PR."</text>
+  </g>
+</svg>

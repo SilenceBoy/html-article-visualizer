@@ -1,0 +1,7 @@
+interface:
+  display_name: "HTML Article Visualizer"
+  short_description: "把长文资料转成交互式单文件 HTML"
+  default_prompt: "Use $html-article-visualizer to turn this article into a self-contained interactive HTML document."
+
+policy:
+  allow_implicit_invocation: true

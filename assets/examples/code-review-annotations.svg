@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Annotated code review diff with findings">
+  <rect width="1200" height="750" rx="28" fill="#FAF8F5"/>
+  <defs>
+    <style>
+      .mono{font:21px ui-monospace,monospace;fill:#6F6A63}
+      .title{font:26px ui-monospace,monospace;fill:#8A837A}
+      .line{stroke:#C7C1B7;stroke-width:12;stroke-linecap:round}
+      .red{stroke:#B9524C;stroke-width:12;stroke-linecap:round}
+      .green{stroke:#788C5D;stroke-width:12;stroke-linecap:round}
+    </style>
+  </defs>
+  <rect width="1200" height="80" fill="#F0EDE8"/>
+  <circle cx="45" cy="40" r="10" fill="#D4CFC7"/><circle cx="80" cy="40" r="10" fill="#D4CFC7"/><circle cx="115" cy="40" r="10" fill="#D4CFC7"/>
+  <text class="title" x="600" y="50" text-anchor="middle">PR #482 · refactor session store</text>
+  <g transform="translate(60 120)">
+    <rect width="740" height="50" rx="8" fill="#F5F2EA" stroke="#D4CFC7" stroke-width="2"/>
+    <text class="mono" x="22" y="33" fill="#2C2825">lib/session.ts</text>
+    <text class="mono" x="640" y="33" fill="#B9524C">-7</text>
+    <text class="mono" x="680" y="33" fill="#788C5D">+18</text>
+    <rect y="50" width="740" height="522" fill="#FFFDF9" stroke="#D4CFC7" stroke-width="2"/>
+    <rect y="50" width="70" height="522" fill="#F5F2EA"/>
+    <g transform="translate(25 90)">
+      <text class="mono" y="0">12</text><text class="mono" y="35">13</text><text class="mono" y="70">14</text><text class="mono" y="105">15</text><text class="mono" y="140">16</text><text class="mono" y="175">17</text><text class="mono" y="210">18</text><text class="mono" y="245">19</text><text class="mono" y="280">20</text><text class="mono" y="315">21</text><text class="mono" y="350">22</text><text class="mono" y="385">23</text><text class="mono" y="420">24</text><text class="mono" y="455">25</text>
+    </g>
+    <rect x="70" y="122" width="670" height="35" fill="#F7E7E4"/>
+    <rect x="70" y="157" width="670" height="70" fill="#ECF1E7"/>
+    <rect x="70" y="297" width="670" height="35" fill="#F7E7E4"/>
+    <rect x="70" y="332" width="670" height="35" fill="#ECF1E7"/>
+    <rect x="70" y="472" width="670" height="35" fill="#ECF1E7"/>
+    <g transform="translate(88 96)">
+      <path class="line" d="M0 0h445M0 35h520"/>
+      <path class="red" d="M0 70h400"/>
+      <path class="green" d="M0 105h493M0 140h435"/>
+      <path class="line" d="M0 175h345M0 210h548"/>
+      <path class="red" d="M0 245h470"/>
+      <path class="green" d="M0 280h560"/>
+      <path class="line" d="M0 315h300M0 350h492M0 385h374"/>
+      <path class="green" d="M0 420h445"/>
+      <path class="line" d="M0 455h245"/>
+    </g>
+  </g>
+  <circle cx="800" cy="310" r="8" fill="#D97757"/>
+  <path d="M800 310h36" stroke="#D97757" stroke-width="3"/>
+  <rect x="834" y="245" width="312" height="146" rx="14" fill="#FFFDF9" stroke="#D97757" stroke-width="3"/>
+  <rect x="834" y="245" width="312" height="38" rx="14" fill="#FBE5DD"/>
+  <text class="mono" x="854" y="272" fill="#D97757">warning blocking</text>
+  <path class="line" d="M856 312h246M856 334h266M856 356h212" stroke="#4A4843"/>
+  <circle cx="800" cy="480" r="8" fill="#8A837A"/>
+  <path d="M800 480h36" stroke="#8A837A" stroke-width="3"/>
+  <rect x="834" y="430" width="312" height="120" rx="14" fill="#FFFDF9" stroke="#8A837A" stroke-width="2"/>
+  <rect x="834" y="430" width="312" height="40" fill="#F0EDE8"/>
+  <text class="mono" x="856" y="458">nit</text>
+  <path class="line" d="M856 490h238M856 512h198" stroke="#77746D"/>
+  <circle cx="800" cy="625" r="8" fill="#788C5D"/>
+  <path d="M800 625h36" stroke="#788C5D" stroke-width="3"/>
+  <rect x="834" y="585" width="312" height="100" rx="14" fill="#FFFDF9" stroke="#788C5D" stroke-width="3"/>
+  <rect x="834" y="585" width="312" height="40" fill="#EDF2E7"/>
+  <text class="mono" x="856" y="613" fill="#788C5D">check nice</text>
+  <path class="line" d="M856 645h246" stroke="#77746D"/>
+</svg>

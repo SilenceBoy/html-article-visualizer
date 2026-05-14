@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Design tokens reference sheet">
+  <rect width="1200" height="750" rx="28" fill="#FAF8F5"/>
+  <defs>
+    <style>
+      .mono{font:22px ui-monospace,monospace;fill:#8A837A}
+      .serif{font:48px Georgia,serif;fill:#141413}
+      .body{font:25px system-ui,sans-serif;fill:#2C2825}
+      .label{font:18px ui-monospace,monospace;letter-spacing:.14em;fill:#8A837A}
+    </style>
+  </defs>
+  <rect width="1200" height="80" fill="#F0EDE8"/>
+  <circle cx="45" cy="40" r="10" fill="#D4CFC7"/><circle cx="80" cy="40" r="10" fill="#D4CFC7"/><circle cx="115" cy="40" r="10" fill="#D4CFC7"/>
+  <text class="mono" x="600" y="50" text-anchor="middle">design tokens · article/html</text>
+  <text class="label" x="60" y="140">COLOR</text>
+  <g transform="translate(60 160)">
+    <g><rect width="120" height="120" rx="14" fill="#D97757"/><text class="mono" y="153">clay</text><text class="mono" y="178">#D97757</text></g>
+    <g transform="translate(135)"><rect width="120" height="120" rx="14" fill="#788C5D"/><text class="mono" y="153">olive</text><text class="mono" y="178">#788C5D</text></g>
+    <g transform="translate(270)"><rect width="120" height="120" rx="14" fill="#6A8CAF"/><text class="mono" y="153">sky</text><text class="mono" y="178">#6A8CAF</text></g>
+    <g transform="translate(405)"><rect width="120" height="120" rx="14" fill="#E3DACC"/><text class="mono" y="153">oat</text><text class="mono" y="178">#E3DACC</text></g>
+    <g transform="translate(540)"><rect width="120" height="120" rx="14" fill="#141413"/><text class="mono" y="153">slate</text><text class="mono" y="178">#141413</text></g>
+    <g transform="translate(675)"><rect width="120" height="120" rx="14" fill="#8A8A82"/><text class="mono" y="153">g500</text><text class="mono" y="178">#8A8A82</text></g>
+    <g transform="translate(810)"><rect width="120" height="120" rx="14" fill="#D4CFC7"/><text class="mono" y="153">g300</text><text class="mono" y="178">#D4CFC7</text></g>
+    <g transform="translate(945)"><rect width="120" height="120" rx="14" fill="#FFFDF9" stroke="#D4CFC7" stroke-width="2"/><text class="mono" y="153">white</text><text class="mono" y="178">#FFFDF9</text></g>
+  </g>
+  <text class="label" x="60" y="400">TYPE</text>
+  <text class="serif" x="60" y="465">Display 48 serif</text>
+  <text x="60" y="520" font-family="Georgia,serif" font-size="34" fill="#141413">Heading 34 serif</text>
+  <text class="body" x="60" y="562">Body 25 sans regular</text>
+  <text class="mono" x="60" y="603" fill="#2C2825">Mono 22 ui-monospace</text>
+  <text class="label" x="845" y="400">BUTTON</text>
+  <rect x="845" y="425" width="280" height="60" rx="12" fill="#D97757"/>
+  <text x="985" y="464" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" fill="#fff">Primary</text>
+  <rect x="845" y="502" width="280" height="60" rx="12" fill="none" stroke="#141413" stroke-width="3"/>
+  <text x="985" y="541" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" fill="#141413">Secondary</text>
+  <rect x="845" y="579" width="280" height="60" rx="12" fill="#F0EDE8"/>
+  <text x="985" y="618" text-anchor="middle" font-family="system-ui,sans-serif" font-size="26" fill="#8A837A">Ghost</text>
+  <text class="label" x="60" y="660">SPACE</text>
+  <rect x="175" y="642" width="8" height="26" fill="#D97757"/><rect x="199" y="642" width="20" height="26" fill="#D97757"/><rect x="235" y="642" width="30" height="26" fill="#D97757"/><rect x="281" y="642" width="40" height="26" fill="#D97757"/><rect x="337" y="642" width="60" height="26" fill="#D97757"/><rect x="413" y="642" width="80" height="26" fill="#D97757"/><rect x="509" y="642" width="120" height="26" fill="#D97757"/>
+</svg>

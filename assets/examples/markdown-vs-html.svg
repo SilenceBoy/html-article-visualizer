@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Markdown document compared with structured HTML document">
+  <rect width="1200" height="675" fill="#FAF8F5"/>
+  <defs>
+    <style>
+      .label{font:700 15px ui-monospace,monospace;letter-spacing:.12em;fill:#6F6A63}
+      .mono{font:16px ui-monospace,monospace;fill:#8A837A}
+      .serif{font:700 30px Georgia,serif;fill:#141413}
+      .line{stroke:#B9B4AB;stroke-width:5;stroke-linecap:round}
+      .muted{font:17px system-ui,sans-serif;fill:#8A837A}
+    </style>
+  </defs>
+  <text class="label" x="44" y="46">MARKDOWN</text>
+  <text class="label" x="614" y="46">HTML</text>
+  <g transform="translate(44 60)">
+    <rect width="516" height="477" rx="17" fill="#FFFDF9" stroke="#D4CFC7" stroke-width="2"/>
+    <text class="mono" x="28" y="38">payments-spec.md</text>
+    <text class="mono" x="410" y="38">240 lines</text>
+    <path d="M28 60h461" stroke="#E3DACC"/>
+    <text class="mono" x="28" y="93"># Payments Service Spec</text>
+    <text class="mono" x="28" y="118">## 1. Overview and goals</text>
+    <g transform="translate(28 140)">
+      <path class="line" d="M0 0h430M0 15h390M0 30h445M0 45h310M0 70h420M0 85h447M18 102h380M18 117h350M18 132h288M0 155h435M0 170h340M0 195h228M0 210h444M0 225h405M0 240h365M0 265h432M0 280h300M0 305h410M0 320h370"/>
+    </g>
+    <path d="M70 438h400" stroke="#D4CFC7" stroke-dasharray="5 8"/>
+    <text class="mono" x="165" y="461">... 214 more lines ...</text>
+  </g>
+  <g transform="translate(614 60)">
+    <rect width="542" height="477" rx="17" fill="#FFFDF9" stroke="#141413" stroke-width="3"/>
+    <rect width="542" height="45" rx="17" fill="#F0EDE8"/>
+    <path d="M0 45h542" stroke="#141413" stroke-width="2"/>
+    <circle cx="30" cy="23" r="6" fill="#D4CFC7"/><circle cx="52" cy="23" r="6" fill="#D4CFC7"/><circle cx="74" cy="23" r="6" fill="#D4CFC7"/>
+    <text class="mono" x="270" y="28" text-anchor="middle">payments-spec.html</text>
+    <text class="serif" x="30" y="87">Payments Service</text>
+    <text class="muted" x="30" y="111">Spec · v2 · 6 sections</text>
+    <rect x="30" y="132" width="112" height="34" rx="8" fill="#FFF1EB" stroke="#D97757" stroke-width="2"/>
+    <text x="86" y="154" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#2C2825">Overview</text>
+    <rect x="152" y="132" width="82" height="34" rx="8" fill="#FFFDF9" stroke="#D4CFC7" stroke-width="2"/>
+    <text x="193" y="154" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#6F6A63">API</text>
+    <rect x="244" y="132" width="110" height="34" rx="8" fill="#FFFDF9" stroke="#D4CFC7" stroke-width="2"/>
+    <text x="299" y="154" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#6F6A63">Rollout</text>
+    <path d="M30 180h482" stroke="#E3DACC"/>
+    <text x="30" y="213" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#2C2825">Goals</text>
+    <path class="line" d="M30 228h226M30 243h201M30 258h219M30 273h152"/>
+    <rect x="290" y="198" width="220" height="100" rx="13" fill="#F5F2EA" stroke="#D4CFC7" stroke-width="2"/>
+    <text class="muted" x="312" y="230">p99 latency target</text>
+    <text x="312" y="274" font-family="system-ui,sans-serif" font-size="34" font-weight="800" fill="#141413">180 ms</text>
+    <text x="30" y="320" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#2C2825">Volume by region</text>
+    <rect x="30" y="392" width="32" height="58" fill="#E3DACC"/><rect x="76" y="362" width="32" height="88" fill="#E3DACC"/><rect x="122" y="410" width="32" height="40" fill="#E3DACC"/><rect x="168" y="378" width="32" height="72" fill="#E3DACC"/>
+    <path d="M30 450h235" stroke="#D4CFC7"/>
+    <text class="muted" x="290" y="330">Open questions</text>
+    <circle cx="300" cy="350" r="4" fill="#D4CFC7"/><circle cx="300" cy="372" r="4" fill="#D4CFC7"/><circle cx="300" cy="394" r="4" fill="#D4CFC7"/>
+    <path class="line" d="M316 350h178M316 372h146M316 394h190"/>
+  </g>
+  <text x="600" y="586" text-anchor="middle" font-family="system-ui,sans-serif" font-size="19" fill="#8A837A">Same content — structured for reading instead of scrolling</text>
+</svg>
